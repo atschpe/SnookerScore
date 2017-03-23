@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.android.snookerscore.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout style="@style/PlayField">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/player_i"
+                    style="@style/Text.Player"
+                    android:text="@string/player_1" />
+
+                <TextView
+                    android:id="@+id/score_player_i"
+                    style="@style/Text.Player"
+                    android:paddingLeft="@dimen/mar_pad"
+                    android:text="@string/score" />
+            </LinearLayout>
+
+            <View style="@style/Divider" />
+
+            <TextView
+                style="@style/Text.Action"
+                android:text="@string/pot" />
+
+            <ImageButton
+                style="@style/Ball"
+                android:onClick="red_i"
+                android:src="@drawable/red" />
+
+            <RelativeLayout style="@style/View">
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:onClick="yellow_i"
+                    android:src="@drawable/yellow" />
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="green_i"
+                    android:src="@drawable/green" />
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:layout_alignParentRight="true"
+                    android:onClick="brown_i"
+                    android:src="@drawable/brown" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/View">
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:onClick="blue_i"
+                    android:src="@drawable/blue" />
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="pink_i"
+                    android:src="@drawable/pink" />
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:layout_alignParentRight="true"
+                    android:onClick="black_i"
+                    android:src="@drawable/black" />
+            </RelativeLayout>
+
+            <View style="@style/Divider" />
+
+            <TextView
+                style="@style/Text.Action"
+                android:text="@string/foul" />
+
+            <LinearLayout style="@style/View">
+
+                <View style="@style/Spacer" />
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:onClick="foul4_i"
+                    android:src="@drawable/cue" />
+
+                <View style="@style/Spacer" />
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:onClick="foul4_i"
+                    android:src="@drawable/red" />
+
+                <View style="@style/Spacer" />
+            </LinearLayout>
+
+            <RelativeLayout style="@style/View">
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:onClick="foul4_i"
+                    android:src="@drawable/yellow" />
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="foul4_i"
+                    android:src="@drawable/green" />
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:layout_alignParentRight="true"
+                    android:onClick="foul4_i"
+                    android:src="@drawable/brown" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/View">
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:onClick="foul5_i"
+                    android:src="@drawable/blue" />
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="foul6_i"
+                    android:src="@drawable/pink" />
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:layout_alignParentRight="true"
+                    android:onClick="foul7_i"
+                    android:src="@drawable/black" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/PlayField">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/player_ii"
+                    style="@style/Text.Player"
+                    android:text="@string/player_2" />
+
+                <TextView
+                    android:id="@+id/score_player_ii"
+                    style="@style/Text.Player"
+                    android:paddingLeft="@dimen/mar_pad"
+                    android:text="@string/score" />
+            </LinearLayout>
+
+            <View style="@style/Divider" />
+
+            <TextView
+                style="@style/Text.Action"
+                android:text="@string/pot" />
+
+
+            <ImageButton
+                style="@style/Ball"
+                android:onClick="red_ii"
+                android:src="@drawable/red" />
+
+            <RelativeLayout style="@style/View">
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:onClick="yellow_ii"
+                    android:src="@drawable/yellow" />
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="green_ii"
+                    android:src="@drawable/green" />
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:layout_alignParentRight="true"
+                    android:onClick="brown_ii"
+                    android:src="@drawable/brown" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/View">
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:onClick="blue_ii"
+                    android:src="@drawable/blue" />
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="pink_ii"
+                    android:src="@drawable/pink" />
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:layout_alignParentRight="true"
+                    android:onClick="black_ii"
+                    android:src="@drawable/black" />
+            </RelativeLayout>
+
+            <View style="@style/Divider" />
+
+            <TextView
+                style="@style/Text.Action"
+                android:text="@string/foul" />
+
+            <LinearLayout style="@style/View">
+
+                <View style="@style/Spacer" />
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:onClick="foul4_ii"
+                    android:src="@drawable/cue" />
+
+                <View style="@style/Spacer" />
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:onClick="foul4_ii"
+                    android:src="@drawable/red" />
+
+                <View style="@style/Spacer" />
+            </LinearLayout>
+
+            <RelativeLayout style="@style/View">
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:onClick="foul4_ii"
+                    android:src="@drawable/yellow" />
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="foul4_ii"
+                    android:src="@drawable/green" />
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:layout_alignParentRight="true"
+                    android:onClick="foul4_ii"
+                    android:src="@drawable/brown" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/View">
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:onClick="foul5_ii"
+                    android:src="@drawable/blue" />
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="foul6_ii"
+                    android:src="@drawable/pink" />
+
+                <ImageButton
+                    style="@style/Ball"
+                    android:layout_alignParentRight="true"
+                    android:onClick="foul7_ii"
+                    android:src="@drawable/black" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="@dimen/image"
+        android:layout_height="@dimen/image"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/triangle" />
+
+    <Button
+        style="@style/Text.Player"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="@android:color/transparent"
+        android:onClick="reset"
+        android:text="@string/reset" />
+</RelativeLayout>

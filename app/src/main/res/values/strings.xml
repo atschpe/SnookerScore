@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Snooker Score</string>
+
+    <!-- The players [CHAR-LIMIT=10] -->
+    <string name="player_1">Player I: </string>
+    <string name="player_2">Player II: </string>
+
+    <!-- Actions [CHAR-LIMIT=10] -->
+    <string name="pot">pot</string>
+    <string name="foul">foul</string>
+
+    <!-- Start off score [Don't translate] -->
+    <string name="score">0</string>
+
+    <!-- Reset button [CHAR-LIMIT=10] -->
+    <string name="reset">Reset</string>
+
+</resources>

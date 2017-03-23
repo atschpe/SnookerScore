@@ -1,0 +1,13 @@
+<resources>
+
+    <dimen name="zero">0dp</dimen>
+
+    <!-- for margins or paddings of 10dp -->
+    <dimen name="mar_pad">10dp</dimen>
+
+    <!-- for margins or paddings of 30dp -->
+    <dimen name="ball">30dp</dimen>
+
+    <!-- for image -->
+    <dimen name="image">100dp</dimen>
+</resources>

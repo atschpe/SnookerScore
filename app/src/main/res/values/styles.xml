@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Background for each player.-->
+    <style name="PlayField">
+        <item name="android:layout_width">@dimen/zero</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">@dimen/mar_pad</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background" >@color/colorPrimary</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Dividing lines -->
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginBottom">@dimen/mar_pad</item>
+        <item name="android:layout_marginTop">@dimen/mar_pad</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <!-- Text basics -->
+    <style name="Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <!-- Text for Player and score -->
+    <style name="Text.Player">
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingBottom">@dimen/mar_pad</item>
+    </style>
+
+    <!-- Text for actions "foul" and "pot" -->
+    <style name="Text.Action">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Ball images -->
+    <style name="Ball">
+        <item name="android:layout_width">@dimen/ball</item>
+        <item name="android:layout_height">@dimen/ball</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/mar_pad</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!-- Spacer views -->
+    <style name="Spacer">
+        <item name="android:layout_width">@dimen/zero</item>
+        <item name="android:layout_height">@dimen/zero</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- Holder views -->
+    <style name="View">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>
