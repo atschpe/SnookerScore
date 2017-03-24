@@ -22,8 +22,8 @@
                 <EditText
                     android:id="@+id/player_i"
                     style="@style/Text.Player"
-                    android:textColorHint="@color/colorAccent"
-                    android:hint="@string/player_1" />
+                    android:hint="@string/player_1"
+                    android:textColorHint="@color/colorAccent" />
 
                 <TextView
                     android:id="@+id/score_player_i"
@@ -160,8 +160,8 @@
                 <EditText
                     android:id="@+id/player_ii"
                     style="@style/Text.Player"
-                    android:textColorHint="@color/colorAccent"
-                    android:hint="@string/player_2" />
+                    android:hint="@string/player_2"
+                    android:textColorHint="@color/colorAccent" />
 
                 <TextView
                     android:id="@+id/score_player_ii"
