@@ -19,14 +19,16 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal">
 
-                <TextView
+                <EditText
                     android:id="@+id/player_i"
                     style="@style/Text.Player"
-                    android:text="@string/player_1" />
+                    android:textColorHint="@color/colorAccent"
+                    android:hint="@string/player_1" />
 
                 <TextView
                     android:id="@+id/score_player_i"
                     style="@style/Text.Player"
+                    android:layout_gravity="bottom"
                     android:paddingLeft="@dimen/mar_pad"
                     android:text="@string/score" />
             </LinearLayout>
@@ -155,14 +157,16 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal">
 
-                <TextView
+                <EditText
                     android:id="@+id/player_ii"
                     style="@style/Text.Player"
-                    android:text="@string/player_2" />
+                    android:textColorHint="@color/colorAccent"
+                    android:hint="@string/player_2" />
 
                 <TextView
                     android:id="@+id/score_player_ii"
                     style="@style/Text.Player"
+                    android:layout_gravity="bottom"
                     android:paddingLeft="@dimen/mar_pad"
                     android:text="@string/score" />
             </LinearLayout>
