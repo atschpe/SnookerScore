@@ -19,10 +19,13 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal">
 
+                <!-- no cursor needed.
+                The user can use the generic names or click in and write the name of the player. -->
                 <EditText
                     android:id="@+id/player_i"
                     style="@style/Text.Player"
                     android:hint="@string/player_1"
+                    android:cursorVisible="false"
                     android:textColorHint="@color/colorAccent" />
 
                 <TextView
@@ -157,10 +160,13 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal">
 
+                <!-- no cursor needed.
+                The user can use the generic names or click in and write the name of the player. -->
                 <EditText
                     android:id="@+id/player_ii"
                     style="@style/Text.Player"
                     android:hint="@string/player_2"
+                    android:cursorVisible="false"
                     android:textColorHint="@color/colorAccent" />
 
                 <TextView
