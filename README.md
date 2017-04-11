@@ -2,4 +2,4 @@
 
 Scoring keeping app. Part of Udacity  Android Basic Course.
 
-![alt-tag](https://cloud.githubusercontent.com/assets/25515948/24251544/c712b67e-0fda-11e7-9d33-84aeaf89e585.png)
+![alt-tag](https://cloud.githubusercontent.com/assets/25515948/24290653/0c14bd2a-1086-11e7-81d9-74d827ff41dc.png)
